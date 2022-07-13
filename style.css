@@ -9,12 +9,12 @@ body {
     margin-bottom: 30px;
 }
 
-.group 			  {
+.group {
     position:relative;
-    margin-bottom:45px;
-    margin-left: 37%;
+    margin: 20px 37% 40px 37%;
+
 }
-input 				{
+input {
     font-size:18px;
     padding:10px 10px 10px 5px;
     display:block;
