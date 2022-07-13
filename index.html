@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WAM Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1 id="title">WAM Calculator</h1>
+
+<div class="group">
+    <input id='currentWam' required>
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Your Current WAM</label>
+</div>
+
+<div class="group">
+    <input id='subjectsCompleted' required>
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Total Number of Subjects Completed</label>
+</div>
+
+<div class="group">
+    <input id='desiredWam' required>
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Desired WAM</label>
+</div>
+
+<div class="group">
+    <input id='subjectsLeft' required>
+    <span class="highlight"></span>
+    <span class="bar"></span>
+    <label>Number of Subjects to Reach Desired WAM</label>
+</div>
+
+<div class="text-box">
+    <a href="#" class="btn btn-white btn-animate" onclick="update()">Update</a>
+</div>
+
+<p>In Order to Achieve Your Desired WAM, You must get at least</p>
+<h2 id='wam'>0</h2>
+<p>WAM per subject.</p>
+
+<script src="index.js"></script>
+</body>
+</html>
