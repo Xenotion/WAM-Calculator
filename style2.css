@@ -1,0 +1,21 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    text-align: center;
+    background: white;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
