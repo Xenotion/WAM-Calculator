@@ -16,7 +16,7 @@ function update() {
         alert("I don't think that's possible mate..."
         )
     } else {
-        if (currentWam == "" || subjectsCompleted == "" || desiredWam == "" || subjectsLeft == "") {
+        if (currentWam === "" || subjectsCompleted === "" || desiredWam === "" || subjectsLeft === "") {
             alert("Please Fill All Required Fields")
         } else {
             if (currentWam <= 0 || subjectsCompleted <= 0 || desiredWam <= 0 || subjectsLeft <= 0) {
@@ -26,7 +26,4 @@ function update() {
             }
         }
     }
-
-
-
 }
