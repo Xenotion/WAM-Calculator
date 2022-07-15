@@ -9,6 +9,7 @@ body {
 #title {
     color: black;
     margin-bottom: 30px;
+    margin-top: -20px;
 }
 
 a:link {
